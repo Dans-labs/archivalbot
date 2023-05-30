@@ -1,0 +1,51 @@
+[default]
+#logs
+log_file = "../logs/dab.log"
+log_level = 10
+log_format = "%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s"
+#Note: below the list of logging level
+#CRITICAL = 50
+#ERROR = 40
+#WARNING = 30
+#INFO = 20
+#DEBUG = 10
+#xsl location
+#ldn inbox service
+ldn_inbox_service_url = "http://0.0.0.0:1210/inbox/updated_since/kkkk"
+
+#in seconds
+polling_interval = 60
+
+jinja2_template_path = "resources/mapping/jinja2-templates/json-ld"
+jinja2_template_accept = "accept.json"
+
+
+
+
+#INGEST USING SWORD
+[sword-ds-archaelogy]
+sword_endpoint_url = "http://localhost:8080/dvn/api/data-deposit/v1.1/swordv2/service-document"
+sword_endpoint_username = ""
+sword_endpoint_password = ""
+
+[sword-ds-dataversenl]
+sword_endpoint_url = "http://localhost:8080/dvn/api/data-deposit/v1.1/swordv2/service-document"
+sword_endpoint_username = "abc"
+sword_endpoint_password = "xyz"
+
+
+
+[sword-dataverse-ds-archaelogy]
+sword_endpoint_url = ""
+sword_endpoint_api_key = ""
+
+[development]
+
+[staging]
+
+[testing]
+
+[production]
+
+[other-eko]
+message = 'this is in other env'

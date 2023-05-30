@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<entry xmlns="http://www.w3.org/2005/Atom"
+    xmlns:dcterms="http://purl.org/dc/terms/">
+    <!-- some embedded metadata -->
+    <dcterms:title>Creative Home</dcterms:title>
+    <dcterms:creator>Eko Indarto</dcterms:creator>
+    <dcterms:creator affiliation="Creative State University">Neverplace, Enaj</dcterms:creator>
+    <!-- Dataverse controlled vocabulary subject term -->
+    <dcterms:subject>Chem</dcterms:subject>
+    <!-- keywords -->
+    <dcterms:subject>Moon</dcterms:subject>
+    <dcterms:subject>Mercurius</dcterms:subject>
+    <dcterms:description>DIY</dcterms:description>
+    <dcterms:publisher>Creative State University</dcterms:publisher>
+    <dcterms:contributor type="Funder">No-one</dcterms:contributor>
+    <!-- production date -->
+    <dcterms:date>2011-01-11</dcterms:date>
+    <!-- kind of data -->
+    <dcterms:type>aggregate data</dcterms:type>
+    <!-- List of sources of the data collection-->
+    <dcterms:source>Edenstreet, KJ</dcterms:source>
+    <!-- related materials -->
+    <dcterms:relation>None</dcterms:relation>
+    <!-- geographic coverage -->
+    <dcterms:coverage>Pluto</dcterms:coverage>
+    <dcterms:coverage>Mars</dcterms:coverage>
+    <!-- license and restrictions -->
+    <dcterms:license>CC0 1.0</dcterms:license>
+    <!-- related publications -->
+    <dcterms:isReferencedBy holdingsURI="http://dx.doi.org/10.1038/axd" agency="DOI" IDNo="10.1038/axd">the x p1.222.</dcterms:isReferencedBy>
+
+</entry>

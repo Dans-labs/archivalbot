@@ -1,0 +1,52 @@
+{
+    "@context": [
+        "https://www.w3.org/ns/activitystreams",
+        "https://purl.org/coar/notify"
+    ],
+    "id": "urn:uuid:0cd58f07-69aa-4dd3-bc19-7b7de0f3550a",
+    "type": "Accept",
+    "actor": {
+        "id": "https://archivalbot.data-stations.nl/",
+        "inbox": "https://archivalbot.data-stations.nl/inbox/",
+        "name": "DANS Archival Bot",
+        "type": "Service"
+    },
+    "inReplyTo": "{{offer_id}}",
+    "context": "{{object_id}}",
+    "object": {
+        "id": "{{object_id}}",
+        "type": "Offer",
+        "actor": {
+            "id": "{{author_id}}",
+            "name": "Some Author",
+            "type": "Person"
+        },
+        "origin": {
+            "id": "https://b2share.eudat.eu",
+            "name": "EUDAT B2SHARE Web Repository",
+            "inbox": "https://b2share.eudat.eu/inbox/",
+            "type": "Service"
+        },
+        "object": {
+            "id": "{{object_id}}",
+            "ietf:cite-as": "https://doi.org/10.23728/b2share.1c42a67a73e9424b8192ba65c81077e1",
+            "type": [
+                "sorg:AboutPage",
+                "sorg:Dataset",
+                "Document"
+            ]
+        },
+        "target": {
+            "id": "https://archivalbot.data-stations.nl/",
+            "inbox": "https://archivalbot.data-stations.nl/inbox/",
+            "name": "DANS Archival Bot",
+            "type": "Service"
+        }
+    },
+    "target": {
+        "id": "https://b2share.eudat.eu",
+        "name": "EUDAT B2SHARE Web Repository",
+        "inbox": "https://b2share.eudat.eu/inbox/",
+        "type": "Service"
+    }
+}
